@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>科研学术</title>
+	<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<script language="javascript" type="text/javascript">
+function check(form){
+	if (form.username.value==""){
+		alert("用户名不能为空！");form.username.focus();return false;
+	}
+	if (form.password.value==""){
+		alert("密码不能为空！");form.password.focus();return false;
+	}
+}
+</script>
+</head>
+<body>
+	<div class="header">
+		<div>
+			<a href="index.html" id="logo"><img src="../../Images/logo.jpg" alt="logo"></a>
+			<ul>
+				<li>
+					<a href="index.html"><span>首页</span></a>
+				</li>
+				<li>
+					<a href="about.html"><span>学院概况</span></a>
+				</li>
+				<li>
+					<a href="blog.html"><span>人才培养</span></a>
+				</li>
+				<li class="selected">
+					<a href="staff.html"><span>科研学术</span></a>
+				</li>
+				<li>
+					<a href="contact.html"><span>联系我们</span></a>
+				</li>
+                 <li>
+                	<a href="../behindPage/self_article.php"><span>资源共享</span></a>
+                </li>
+			</ul>
+			<div>
+				<p>
+					<span>求实创新 励志图强</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div>
+			<div>
+				<div>
+					<div class="staff">
+						<h2>教学中心</h2>
+						<div class="first">
+							<h3><span>用户登录</span></h3>
+<form action="../behindPage/login.php" method="post" name="form1">
+
+ 用户名：<input type="text" name="username" />
+ 密码：<input type="password" name="password" />
+							
+ <input type="submit" id="submit" value="登陆" onClick="return check(form1)"/>
+							</form>
+						</div>
+						<div>
+							<h3>教学机构</h3>
+							<p>
+通信工程系、测控技术与通信仪器系、控制科学与工程系、电子信息工程系、光信息科学与技术系、电工电子教学实验中心和技术培训中心等教学机构。
+						  </p>
+							<h3>现任领导</h3>
+							<ul>
+								<li>
+									<p>
+										吉林大学通信工程学院 党委书记 程 钺
+								  </p>
+								</li>
+								<li>
+									<p>
+										吉林大学通信工程学院 院长 赵晓晖
+								  </p>
+								</li>
+								
+						  </ul>
+							<h3>学术研究</h3>
+							<p>
+赵院长长期从事自适应控制理论和信号处理理论及其在通信中的应用领域的科研和教学工作。主要研究方向包括自适应信号处理、无线移动通信理论与技术和语音信号数字处理理论与技术等。已在国际及国内核心期刊和会议上发表论文八十多篇。多篇论文进入国际著名检索EI和ISTP中。主持完成了国家和省部级科研项目5项，正在主持省部级科研项目2项。（主要论文发表在《通信学报》、《控制理论与应用》、《控制与决策》、《中国邮电高校学报英文版》和《吉林大学学报》等期刊上）。</p>
+							<p>
+陈万忠教授目前主要研究方向1.分布式智能信息处理：研究内容包括物联网应用系统的无线传感器网络节点的信息获取与融合、近程数据传输协议以及网络远程监控；下一代智能汽车人-车-环境信息的智能感知与交互。2.生物信息处理与控制仿生：研究内容包括仿生系统的运动感知机理、模式识别算法、人-机一体化仿生柔性控制策略及实现方法；基于视频图像处理技术的运动目标识别与行为特征分析。</p>
+						
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="footer">
+		<div>
+			<div>
+				<h3>吉林大学通信工程学院</h3>
+				<p>
+Department of Communication Engineerings，JiLin University
+				</p>
+				
+			</div>
+			<div>
+				<h4>重大领域组建研究团队</h4>
+				<ul>
+					<li>
+						<p>
+			智能感知技术与智能信号处理；下一代通信和网络技术与媒体信息处理
+						</p>
+					</li>
+					<li>
+						<p>
+		
+智能服务机器人与自主作业机械系统；汽车计算平台与汽车电子控制技术
+						</p>
+					</li>
+					<li>
+						<p>
+极端条件下光电信息系统容错技术；企业信息化与制造过程综合自动化。
+						</p>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div>
+			<p>
+				吉林大学南湖校区
+			</p>
+		</div>
+	</div>
+</body>
+</html>
