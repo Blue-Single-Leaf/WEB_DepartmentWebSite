@@ -1,6 +1,6 @@
 <?php
-	require_once('config.php');//创建对象并打开连接，最后一个参数是选择的数据库名称 
-$mysqli = new mysqli('localhost','myadmin','myadmin','info'); 
+	require_once('config.php');//鍒涘缓瀵硅薄骞舵墦寮�杩炴帴锛屾渶鍚庝竴涓弬鏁版槸閫夋嫨鐨勬暟鎹簱鍚嶇О 
+$mysqli = new mysqli('localhost','******','******','******'); 
 if($mysqli->errno){
 	die('Connect Error:'.$mysqli->error);
 }else{
