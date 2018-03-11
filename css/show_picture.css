@@ -1,0 +1,127 @@
+/*大图部分*/
+.big{
+	width:880px;
+	margin-left:200px;
+}
+#big_picture{
+	
+	display:flex;
+            justify-content:center;
+            align-items:center;
+	margin-top:10px;
+	/*margin-left:200px;*/
+	width:880px;                             
+	height:440px;
+	/*background-color:blue;*/
+	border:solid 1px silver;
+	position:relative;
+	z-index:0;
+	                                                                                                                                 
+}
+#big_picture #my_img {                                                        
+	
+	
+	
+	max-height:100%;                          
+	max-width:100%;
+}
+/*大图换页*/
+.big_up{
+	position:absolute;
+	z-index:2;
+	margin-bottom:-450px;
+	/*margin-left:200px;*/
+	width:100px;
+	height:440px;
+	background-color:#CACACA;
+	display:none;
+}
+.big_up img {
+	cursor:pointer;
+	margin-top:180px;
+	max-width:100%;
+}
+.big_down{
+	position:absolute;
+	z-index:3;
+	margin-top:-440px;
+	margin-left:780px;
+	width:100px;
+	height:440px;
+	background-color:#CACACA;
+	display:none;
+}
+.big_down img {
+	cursor:pointer;
+	margin-top:180px;
+	max-width:100%;
+}
+.big:hover div.big_up {
+	display:block;
+}
+.big:hover div.big_down {
+	display:block;
+}
+
+
+/*小图部分*/
+.small{
+	margin-top:10px;
+}
+.small_picture { 
+	                                                               
+	padding-left:95px;
+	margin-top:20px;                                                                   
+	margin-left:100px;              
+	width:1000px;
+	height:148px;
+	border:1px solid red;
+	
+}
+/*小图换页*/
+.small_up{
+	width:90px;
+	height:148px;
+	background-color:#309;
+	margin-bottom:-168px;
+	margin-left:102px;
+
+}
+.small_down{
+	width:90px;
+	height:148px;
+	background-color:#309;
+	margin-top:-148px;
+	margin-left:1105px;
+}
+.small_down img{
+	max-height:148px;
+}
+.small_up img{
+	max-height:148px;
+}
+
+.img_box{
+	float:left;
+	cursor:pointer;
+	width:100px;
+	height:100px;
+	margin-left:10px;
+	margin-top:24px;
+}
+.img_box:hover{
+	float:left;
+	cursor:pointer;
+	width:140px;
+	height:140px;
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+.img_box img{
+	border:2px solid silver;
+	width:100%;
+	height:100%;
+}
+	
+
